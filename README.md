@@ -1,47 +1,38 @@
-# Astro Starter Kit: Minimal
+# Muazzam Imtiaz – Full-Stack WordPress Developer
 
-```sh
-npm create astro@latest -- --template minimal
-```
+こんにちは 「Hi」
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## 👋 About Me
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+I’m a seasoned full-stack web developer with over 13 years of experience, focused on WordPress development. I’ve worked across various industries, including sports, footwear, pharma, ecommerce, insurance, and healthcare.
 
-## 🚀 Project Structure
+As a lead developer in a digital agency in Tokyo, I manage a team of 5 developers and look after 70+ websites. I’ve collaborated with agencies in the US and EU, providing technical support, consultancy, and web development services.
 
-Inside of your Astro project, you'll see the following folders and files:
+---
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## 🛠️ Current Tools
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+| WordPress | Bricks Builder | Core Framework | Figma |
+|:--------------:|:--------------:|:-----:|:-----:|
+| ![WordPress](https://raw.githubusercontent.com/muazzami/muazzami.github.io/main/public/icons/wordpress-logo.svg) |
+| ![Bricks Builder](https://raw.githubusercontent.com/muazzami/muazzami.github.io/main/public/icons/bricks-logo.svg) |
+| ![Core Framework](https://raw.githubusercontent.com/muazzami/muazzami.github.io/main/public/icons/core-framework.svg) |
+| ![Figma](https://raw.githubusercontent.com/muazzami/muazzami.github.io/main/public/icons/figma-logo.svg) |
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+---
 
-Any static assets, like images, can be placed in the `public/` directory.
+## 🤝 Get in Touch
 
-## 🧞 Commands
+[![WhatsApp](https://raw.githubusercontent.com/muazzami/muazzami.github.io/main/public/icons/whatsapp.svg)](https://wa.me/your-number)
+[![X](https://raw.githubusercontent.com/muazzami/muazzami.github.io/main/public/icons/x.svg)](https://x.com/muazzamimtiaz)
+[![LinkedIn](https://raw.githubusercontent.com/muazzami/muazzami.github.io/main/public/icons/linkedin.svg)](https://www.linkedin.com/in/muazzamimtiaz/)
+[![GitHub](https://raw.githubusercontent.com/muazzami/muazzami.github.io/main/public/icons/github.svg)](https://github.com/muazzami)
 
-All commands are run from the root of the project, from a terminal:
+---
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Do you already have a WordPress website?  
+Let us manage it for you so you can focus on your business.  
+**Get in touch for a free consultation session.**
 
-## 👀 Want to learn more?
+[Book Free Consultation](https://client.rykit.com/public/consulting-session)
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

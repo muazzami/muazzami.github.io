@@ -1,16 +1,74 @@
 ---
+import '../styles/global.css';
 
+const tools = [
+  { name: "WordPress", icon: "/icons/wordpress-logo.svg" },	
+  { name: "Bricks Builder", icon: "/icons/bricks-logo.svg" },
+  { name: "Core Framework", icon: "/icons/core-framework.svg" },
+  { name: "Figma", icon: "/icons/figma-logo.svg" },
+];
+
+const socials = [
+  { name: "WhatsApp", url: "https://wa.me/818037011142", icon: "/icons/whatsapp.svg" },
+  { name: "X", url: "https://x.com/muazzamimtiaz", icon: "/icons/x.svg" },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/muazzamimtiaz/", icon: "/icons/linkedin.svg" },
+  { name: "GitHub", url: "https://github.com/muazzami", icon: "/icons/github.svg" },
+];
+
+const services = [
+  "Custom WordPress development",
+  "Bricks Builder & Core Framework expertise",
+  "UI/UX design in Figma",
+  "Technical consulting & site management"
+];
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<section class="profile-card">
+  <header>
+    <div class="greeting">こんにちは 「 Hi 」</div>
+    <h1 class="main-title">My Name is Muazzam Imtiaz</h1>
+    <div class="bio-line">WordPress Pro · Innovation-Focused Developer · Driving Team Success Every Day</div>
+  </header>
+
+  <p class="intro">
+    I'm a full-stack web developer with 13+ years of experience, specializing in WordPress solutions. My work spans industries such as sports, footwear, pharma, ecommerce, insurance, and healthcare.
+    <br /><br />
+    As lead developer at a Tokyo-based digital agency, I manage a team of five and oversee more than 70 websites. I regularly collaborate with agencies in the US and EU, delivering technical support, consultancy, and end-to-end web development.
+  </p>
+
+  <section class="stack-section">
+    <h2 class="section-title">Core Stack & Services</h2>
+    <ul class="services-list">
+      {services.map(service => <li>{service}</li>)}
+    </ul>
+  </section>
+
+  <section class="tools-section">
+    <h2 class="section-title">Current Tools</h2>
+    <div class="tools-row">
+      {tools.map(tool => (
+        <div class="tool-card" title={tool.name}>
+          <img src={tool.icon} alt={tool.name} />
+          <span>{tool.name}</span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="contact-section">
+  <h2 class="section-title">Let's Work Together</h2>
+  <p class="cta-text">
+    Ready to elevate your WordPress site or need expert advice?
+  </p>
+  <a href="https://client.rykit.com/public/consulting-session" class="cta-btn">Book Free Consultation</a>
+  <div class="cta-text"><br />Or find me via<br /></div>
+  <div class="social-links">
+     {socials.map(link => (
+        <a href={link.url} target="_blank" rel="noopener" aria-label={link.name}>
+          <img src={link.icon} alt={link.name} />
+        </a>
+      ))}
+  </div>
+</section>
+
+</section>

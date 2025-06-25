@@ -1,0 +1,10 @@
+---
+const { links } = Astro.props;
+---
+<div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+  {links.map(link => (
+    <a href={link.url} target="_blank" rel="noopener" aria-label={link.name}>
+      <img src={`/icons/${link.icon}.svg`} alt={link.name} style="width:32px; height:32px;" />
+    </a>
+  ))}
+</div>
